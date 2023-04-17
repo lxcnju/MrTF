@@ -1,7 +1,7 @@
 # MrTF
 
 The source code of our works on federated learning:
-* Submitted to ECML-PKDD Journal Track (Data Mining and Knowledge Discovery, DMKD Journal): MrTF: Model Refinery for Transductive Federated Learning.
+* Submitted to ECML-PKDD 2023 Journal Track (Data Mining and Knowledge Discovery, DMKD Journal): MrTF: Model Refinery for Transductive Federated Learning.
 
 
 # Content
@@ -29,11 +29,11 @@ The code files are written in Python, and the utilized deep learning tool is PyT
   * `pillow`: 8.3.1
 
 ## Datasets
-We provide several datasets including (downloading link code be found in my [Homepage](https://www.lamda.nju.edu.cn/lixc/)):
-  * MNIST
-  * SVHN
-  * CIFAR-10
-  * CIFAR-100
+We provide several datasets including (if can not download, please copy the links to a new browser window):
+  * \[[MNIST](https://www.lamda.nju.edu.cn/lixc/data/MNIST.zip)\]
+  * \[[SVHN](https://www.lamda.nju.edu.cn/lixc/data/SVHN.zip)\]
+  * \[[CIFAR-10](https://www.lamda.nju.edu.cn/lixc/data/CIFAR10.zip)\]
+  * \[[CIFAR-100](https://www.lamda.nju.edu.cn/lixc/data/CIFAR100.zip)\]
 
 ## Running Tips
   * `python train_fedavg.py`: the baseline of FedAvg
@@ -44,5 +44,5 @@ FL algorithms and hyper-parameters could be set in these files.
 
 
 ## Citation
-  * Xin-Chun Li, De-Chuan Zhan. MrTF: Model Refinery for Transductive Federated Learning.
+  * Xin-Chun Li, Yang Yang, De-Chuan Zhan. MrTF: Model Refinery for Transductive Federated Learning.
   * \[[BibTex](https://dblp.org/pid/246/2947.html)\]
